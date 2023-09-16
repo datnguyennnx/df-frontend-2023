@@ -1,4 +1,276 @@
 html {
   height: 100%;
   width: 100%;
+  font-family: "Segoe UI",Roboto, "Helvetica Neue", Arial, "Noto Sans";
 }
+
+button { 
+  width: auto;
+  height: 42px;
+  margin: 0 16px 0 16px;
+  padding: 0 20px 0 16px;
+  border-width: 1px;
+  border-radius: 4px;  
+  background-color: rgb(225, 63, 94);
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(204, 53, 82);
+}
+
+input { 
+  width: 300px;
+  height: 42px;
+  border-radius: 6px;
+  padding: 0 0 0 12px;
+  margin: 0 0 0 12px;
+  color: black;
+  background: transparent;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+input:focus { 
+  border: 2px solid rgb(204, 53, 82);
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+table, td, th {  
+  border: 2px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 16px 0 16px;
+}
+
+th, td {
+  padding: 8px 4px 12px 12px;
+  width: auto;
+}
+
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0 16px 0;
+}
+
+.header-nav h2 {
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.users-nav  {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  margin: 0 16px 0 16px;
+}
+
+.users-nav:hover {
+  cursor: pointer;
+}
+
+.users-nav svg {
+  width: 20px;
+  height: 20px;
+}
+
+.users-nav p {
+  font-weight: 500;
+  margin: 0 16px 0 16px;
+}
+
+.control-form { 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 24px 0 24px 0;
+}
+
+.content-container { 
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 24px 0 24px 0;
+}
+
+.td-action  { 
+  text-decoration: underline;
+  color:rgb(225, 63, 94);
+  font-style: italic;
+  text-underline-offset: 2px;
+}
+
+.td-action:hover  { 
+  cursor: pointer;
+  color: rgb(126, 33, 51);
+}
+
+
+#addbook-form { 
+  position: fixed;
+  display: none; 
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  align-items: center;
+}
+
+#addbook-form.open { 
+  display: flex;
+}
+
+#form-addbook { 
+  display: flex;
+  width: 330px;
+  height: fit-content;
+  flex-direction: column;
+  padding: 24px 12px 24px 12px;
+  border: 2px solid rgb(17 24 39);
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+  
+}
+
+#form-addbook p { 
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 8px 0 8px 12px;
+} 
+
+#form-addbook svg { 
+  margin: 0 12px 0 -12px;
+} 
+
+
+#form-addbook label { 
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 8px 12px 8px 12px;
+} 
+
+#form-addbook select { 
+  width: 314px;
+  height: 42px;
+  border-radius: 6px;
+  padding: 0 6px 0 12px;
+  margin: 0 0 0 12px;
+  color: rgb(31, 31, 31);
+  background: transparent;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+} 
+
+#form-addbook select:focus { 
+  border: 2px solid rgb(29, 32, 37);
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#form-addbook button {
+  width: 30%;
+  margin: 16px 0 8px 13.5rem;
+} 
+
+.close-container-addbook { 
+  display: flex;
+  justify-content: space-between;
+}
+
+#close-icon-addform:hover { 
+  cursor: pointer;
+}
+
+#close-icon-deleteform:hover { 
+  cursor: pointer;
+}
+
+.close-container-delete-book { 
+  display: flex;
+  justify-content: end;
+}
+
+
+.container-button-delete { 
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+#delete-form { 
+  position: fixed;
+  display: none; 
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  align-items: center;
+}
+
+
+#delete-form.open { 
+  display: flex;
+}
+
+.form-delete { 
+  display: flex;
+  width: 300px;
+  height: fit-content;
+  flex-direction: column;
+  padding: 24px 12px 24px 12px;
+  border: 2px solid rgb(17 24 39);
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+}
+
+
+#delete-form label { 
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 20px 5rem 16px 0;
+} 
+
+#message-delete { 
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 16px 0 16px 0;
+  text-align: center;
+} 
+
+
+#delete-form svg { 
+  margin: 0 12px 0 0;
+} 
