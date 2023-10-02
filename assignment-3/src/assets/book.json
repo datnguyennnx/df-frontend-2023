@@ -1,0 +1,72 @@
+[
+  { 
+    "name": "Refactoring",
+    "author": "Martin Fowler",
+    "topic": "Programming"
+  },
+  {
+    "name": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "topic": "Database"
+  },
+  {
+    "name": "The Phoenix Project",
+    "author": "Gene Kim",
+    "topic": "DevOps"
+  },
+  {
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "topic": "Programming"
+  },
+  {
+    "name": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "topic": "Algorithms"
+  },
+  {
+    "name": "Structure and Interpretation of Computer Programs (SICP)",
+    "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+    "topic": "Programming"
+  },
+  {
+    "name": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "topic": "Programming"
+  },
+  {
+    "name": "Code Complete: A Practical Handbook of Software Construction",
+    "author": "Steve McConnell",
+    "topic": "Software Life"
+  },
+  {
+    "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Gene Kim",
+    "topic": "Design Patterns"
+  },
+  {
+    "name": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "topic": "Software Life"
+  },
+  {
+    "name": "Head First Design Patterns: A Brain-Friendly Guide",
+    "author": "Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson",
+    "topic": "Design Patterns"
+  },
+  {
+    "name": "The Art of Computer Programming, Volumes 1-4",
+    "author": "Donald E. Knuth",
+    "topic": "Software Life"
+  },
+  {
+    "name": "System Design Interview – An Insider's Guide: Volume 1",
+    "author": "Alex Xu, Sahn Lam ",
+    "topic": "System Design"
+  },
+  {
+    "name": "System Design Interview – An Insider's Guide: Volume 2",
+    "author": "Alex Xu, Sahn Lam ",
+    "topic": "System Design"
+  }
+]

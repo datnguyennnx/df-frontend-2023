@@ -1,13 +1,10 @@
 {
-  "extends": ["./node_modules/@dwarvesf/react-eslint-config"],
-  "env": {
-    "es6": true,
-    "browser": true,
-    "node": true,
-    "jest": true
-  },
+  "extends": [
+    "./node_modules/@dwarvesf/react-eslint-config",
+    "plugin:storybook/recommended"
+  ],
   "globals": {
-    "io": true,
+    "tw": true,
     "chrome": true
   },
   "parserOptions": {
@@ -16,19 +13,12 @@
       "jsx": true
     },
     "project": ["./tsconfig.json"],
-    "createDefaultProgram": true,
-    "sourceType": "module"
+    "createDefaultProgram": true
   },
   "rules": {},
   "overrides": [
     {
-      "files": ["**/*.ts?(x)", "**/*.js?(x)"],
-      "rules": {
-        "react/react-in-jsx-scope": "off",
-        "react/jsx-sort-props": "off",
-        "react/function-component-definition": "off",
-        "no-shadow": "off"
-      }
+      "files": ["**/*.ts?(x)", "**/*.js?(x)"]
     }
   ]
 }
