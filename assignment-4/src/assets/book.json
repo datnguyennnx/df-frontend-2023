@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Refactoring",
+    "author": "Martin Fowler",
+    "topic": "Programming"
+  },
+  {
+    "id": 2,
+    "name": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "topic": "Database"
+  },
+  {
+    "id": 3,
+    "name": "The Phoenix Project",
+    "author": "Gene Kim",
+    "topic": "DevOps"
+  },
+  {
+    "id": 4,
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "topic": "Programming"
+  },
+  {
+    "id": 5,
+    "name": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "topic": "Algorithms"
+  },
+  {
+    "id": 6,
+    "name": "Structure and Interpretation of Computer Programs (SICP)",
+    "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+    "topic": "Programming"
+  },
+  {
+    "id": 7,
+    "name": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "topic": "Programming"
+  },
+  {
+    "id": 8,
+    "name": "Code Complete: A Practical Handbook of Software Construction",
+    "author": "Steve McConnell",
+    "topic": "Software Life"
+  },
+  {
+    "id": 9,
+    "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Gene Kim",
+    "topic": "Design Patterns"
+  },
+  {
+    "id": 10,
+    "name": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "topic": "Software Life"
+  },
+  {
+    "id": 11,
+    "name": "Head First Design Patterns: A Brain-Friendly Guide",
+    "author": "Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson",
+    "topic": "Design Patterns"
+  },
+  {
+    "id": 12,
+    "name": "The Art of Computer Programming, Volumes 1-4",
+    "author": "Donald E. Knuth",
+    "topic": "Software Life"
+  },
+  {
+    "id": 13,
+    "name": "System Design Interview – An Insider's Guide: Volume 1",
+    "author": "Alex Xu, Sahn Lam ",
+    "topic": "System Design"
+  },
+  {
+    "id": 14,
+    "name": "System Design Interview – An Insider's Guide: Volume 2",
+    "author": "Alex Xu, Sahn Lam ",
+    "topic": "System Design"
+  }
+]
